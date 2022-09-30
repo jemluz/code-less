@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <router-view/>
+  <div>oie</div>
 </template>
 
 <style scoped lang="scss">
