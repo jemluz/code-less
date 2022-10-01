@@ -1,8 +1,11 @@
 <script setup>
+import Header from "../components/Header.vue"
 </script>
 
 <template>
-  <div>oie</div>
+  <Header/>
+
+  <div class="home">oie</div>
 </template>
 
 <style scoped lang="scss">
