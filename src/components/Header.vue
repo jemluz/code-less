@@ -1,23 +1,23 @@
-<script setup>
-import LogoIcon from "./LogoIcon.vue"
-import LefBar from "./LeftBar.vue";
-</script>
-
 <template>
   <header>
-    <LefBar class="left_bar"></LefBar>
-    <LogoIcon class="logo"></LogoIcon>
+    <LefBar class="left_bar"/>
+    <LogoIcon class="logo"/>
     <span class="right_space"></span>
   </header>
 </template>
+
+<script setup>
+  import LogoIcon from "./LogoIcon.vue"
+  import LefBar from "./LeftBar.vue";
+</script>
 
 <style scoped lang="scss">
 header {
   @apply flex justify-center items-center;
 
   .left_bar {
-    @apply flex w-1/3 md:w-3/12 lg:hidden;
-    @apply justify-start md:justify-center pl-6 sm:pl-12 md:p-0;
+    @apply flex w-1/3 md:w-4/12 lg:hidden;
+    @apply justify-start pl-6 sm:pl-12 lg:p-0;
   }
 
   .logo {

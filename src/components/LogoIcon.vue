@@ -68,6 +68,6 @@
 
 <style scoped lang="scss">
     .logo {
-        @apply h-32;
+        @apply h-28;
     }
 </style>
